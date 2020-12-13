@@ -18,6 +18,7 @@
     <modules>
         <module>one-to-one</module>
         <module>work-queues</module>
+        <module>publish-subscribe</module>
     </modules>
 
     <properties>

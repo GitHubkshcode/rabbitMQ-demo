@@ -28,6 +28,8 @@ public class NewTask {
                 String message = sb.toString();
                 //消息持久化，确保rabbitMQ宕机，消息不丢失
                 AMQP.BasicProperties persistentTextPlain = MessageProperties.PERSISTENT_TEXT_PLAIN;
+                //第一个参数指定exchange，传""，将使用默认的exchange
+                //消息通过第二个参数routingKey路由到指定的队列
                 channel.basicPublish("", QUEUE_NAME, persistentTextPlain, message.getBytes(StandardCharsets.UTF_8));
                 System.out.println(" [x] Sent '" + message + "'");
             }
