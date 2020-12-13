@@ -19,6 +19,7 @@
         <module>one-to-one</module>
         <module>work-queues</module>
         <module>publish-subscribe</module>
+        <module>routingkey</module>
     </modules>
 
     <properties>
