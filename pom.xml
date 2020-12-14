@@ -21,6 +21,7 @@
         <module>publish-subscribe</module>
         <module>routingkey</module>
         <module>topics</module>
+        <module>rpc</module>
     </modules>
 
     <properties>
