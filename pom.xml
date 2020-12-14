@@ -20,6 +20,7 @@
         <module>work-queues</module>
         <module>publish-subscribe</module>
         <module>routingkey</module>
+        <module>topics</module>
     </modules>
 
     <properties>
